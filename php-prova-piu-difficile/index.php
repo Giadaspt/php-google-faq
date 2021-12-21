@@ -86,22 +86,23 @@ Preoccupatevi della fedeltà grafica solo una volta risolti i problemi PHP
         foreach($option as $list){ ?>
         <?php
           echo "
-          <ol>
-            <li> 
-              $options
-              <ol type='a'>
-                <li>
-                $list[a];
+            <ol>
+              <li> 
+                $option[option]
                 </li>
-                <li>
-                $list[b];
-                </li>
-              </ol>
-            </li>
-            <li> 
-              $option
-            </li>
-          </ol>
+                <ol type='a'>
+                  <li>
+                  $list[a];
+                  </li>
+                  <li>
+                  $list[b];
+                  </li>
+                </ol>
+              
+              <li> 
+                $option[option]
+              </li>
+            </ol>
           
           ";
         ?>
